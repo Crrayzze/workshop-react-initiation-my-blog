@@ -1,6 +1,6 @@
 import React from "react";
 
-export const ArticleCard = () => {
+export const ArticleCard = ({ id, title, content, imageUrl }) => {
   return (
     <div>
       ArticleCard
