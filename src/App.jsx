@@ -1,11 +1,12 @@
 import './App.css';
+import { Router } from './pages/router';
+import { NavigationBar } from './components/navigationBar/navigationBar';
 
-function App() {
+export const App = () => {
   return (
     <div>
-      Hello World!
+      <NavigationBar />
+      <Router />
     </div>
   );
 }
-
-export default App;
