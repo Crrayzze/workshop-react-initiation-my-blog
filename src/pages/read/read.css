@@ -1,0 +1,22 @@
+.read-image {
+  width: 100vw;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.read-content-container {
+  padding: 50px 10%;
+}
+
+.read-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.read-content {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  text-align: justify;
+}

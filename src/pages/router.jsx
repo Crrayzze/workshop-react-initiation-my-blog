@@ -13,7 +13,7 @@ export const Router = () => {
       <Route path="/about" element={<About />} />
       <Route path="/portfolio" element={<Portfolio />} />
       <Route path="/create" element={<Create />} />
-      <Route path="/read" element={<Read />} />
+      <Route path="/read/:id" element={<Read />} />
     </Routes>
-  )
+  );
 }
